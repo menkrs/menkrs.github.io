@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的门客主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../iconfont.css">
+    <link rel="stylesheet" href="iconfont.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 400 1em/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC",
+            "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+        }
+
+        .container {
+            padding: 0px;
+        }
+
+        p,
+        h4 {
+            color: rgb(52, 58, 64)
+        }
+
+        .profile,
+        .opus,
+        .skills {
+            padding: 20px;
+        }
+
+        .profile h4 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 23px;
+        }
+
+        .profile p {
+            font-size: 14px;
+            margin-bottom: 7.5px;
+        }
+
+        .iconfont {
+            color: rgb(52, 58, 64);
+        }
+
+        nav .navbar-brand {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav .iconfont {
+            font-size: 23px;
+        }
+
+        .navbar-toggler,
+        .nav-item {
+            font-size: 14px;
+        }
+
+        /* 联系方式图标控制 */
+
+        .profile a i {
+            font-size: 1.5em;
+            margin-right: 3px;
+        }
+
+        .profile .icon-weichat {
+            color: #44b549;
+        }
+
+        .profile .icon-email {
+            color: #269ce0;
+            position: relative;
+        }
+
+        .profile .icon-xinlang {
+            color: #e6162d;
+            position: relative;
+        }
+
+        .icon-weichat:hover,
+        .icon-email:hover,
+        .icon-xinlang:hover {
+            color: #545454;
+        }
+
+        .opus {
+            background-color: rgb(248, 249, 250);
+        }
+
+        .opus h4,
+        .skills h4 {
+            font-size: 23px;
+        }
+
+        .card,
+        .card-img-top {
+            width: 100%;
+        }
+
+        .card {
+            margin-top: 15px;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card h5 {
+            font-size: 16px;
+            margin-bottom: 7.5px;
+        }
+
+        .card-text {
+            margin-left: 5px;
+            margin-bottom: 0px;
+            font-size: 12px;
+        }
+
+        .card-body img {
+            width: 14px;
+            margin: 0px !important;
+        }
+
+        .skills p {
+            font-size: 14px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="../newhomepage.html">
+            <i class="iconfont">&#xe702;</i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">门客广场</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <img src="../images/touxiang.jpg" alt="Chen Yuheng" class="mr-3 mt-3 rounded-circle" style="width:68px;">
+            <h4>陈宇恒</h4>
+            <p>Stay foolish, stay hungry.</p>
+            <p>幻灯片尚未成瘾，网页开发刚刚入门。</p>
+            <p>想成为有想法的设计师、工程师，缺什么就自己动手做一个。</p>
+            <span>
+                <a href="#" title="Wechat ID" data-toggle="popover" data-placement="bottom" data-content="waxb_20120505">
+                    <i class="iconfont icon-weichat"></i>
+                </a>
+                <a href="mailto:905673611@qq.com" target="blank">
+                    <i class="iconfont icon-email"></i>
+                </a>
+                <a href="https://weibo.com/2693245680/profile?rightmod=1&wvr=6&mod=personinfo" target="blank">
+                    <i class="iconfont icon-xinlang"></i>
+                </a>
+            </span>
+        </div>
+        <div class="opus">
+            <h4>我的作品</h4>
+            <div class="card">
+                <img class="card-img-top" src="../images/slides_2.png" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title" style="margin: 0px;">PPT 重制——培训类幻灯片</h5>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <h4>技能 &amp; 工具</h4>
+            <p style="margin-bottom: 3.5px; color: rgb(216, 59, 1)">#PowerPoint</p>
+            <p style="color: rgb(228, 123, 252)">#Premiere</p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+</body>
+
+</html>

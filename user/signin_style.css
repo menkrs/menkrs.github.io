@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: rgb(238, 238, 238) !important;
+}
+
+nav .navbar-brand {
+  color: rgb(248, 249, 250);
+}
+
+.conta {
+  margin-top: 12.5px;
+}
+
+.hd_body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-color: #fff;
+  padding: 12px;
+  margin-top: 25px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+.input-group {
+  margin-top: 15px;
+}
+
+.card .password {
+  margin-bottom: 7.5px;
+}
+
+.hd_body .card .forget {
+  font-size: 12px;
+}
+
+.hd_body .card .signup {
+  font-size: 12px;
+}
+
+.card span button {
+  width: 49%;
+}

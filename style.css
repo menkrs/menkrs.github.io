@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font: 400 1em/1.8 -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-item,
+.navbar-toggler {
+  font-size: 14px;
+}
+
+.nav-link {
+  color: rgb(52, 58, 64);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: rgb(52, 58, 64);
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  margin: 14px auto;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgb(219, 219, 219);
+}
+
+.cates {
+  overflow: hidden;
+}
+
+.cates::-webkit-scrollbar {
+  display: none;
+}
+
+.cates ul {
+  font-size: 14px;
+  display: block;
+  white-space: nowrap;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.cates li {
+  display: inline-block;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+#home,
+#code,
+#idea,
+#design,
+#photo {
+  padding: 0px;
+  margin-top: 9.33px;
+}
+
+/* Menkr's card */
+
+.menkr {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 7.5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.touxiang {
+  display: inline-block;
+  float: left;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.touxiang:hover {
+  width: 25%;
+  height: 25%;
+  border-style: solid;
+  border-color: rgba(34, 34, 34, 0.2);
+  border-width: 2px;
+}
+
+.menkr h4 {
+  font-size: 16px;
+  margin: 0 0 0 10px;
+  color: rgb(34, 34, 34);
+}
+
+.menkr p {
+  font-size: 0.6em;
+  font-weight: 200;
+  margin: 10px;
+}
+
+.profile {
+  float: left;
+  margin-left: 6px;
+}
+
+.skill_slides {
+  padding: 2.5px 7px;
+  border-radius: 200px; /* 胶囊形状 */
+  background-color: #ff9500;
+  color: #ffffff;
+}
+
+.skill_video {
+  padding: 2.5px 7px;
+  border-radius: 200px;
+  background-color: #5856d6;
+  color: #ffffff;
+}
+
+.skill_plan,
+.skill_propa {
+  padding: 2.5px 7px;
+  border-radius: 200px;
+  background-color: #ff2d55;
+  color: #ffffff;
+}
+
+.skill_code {
+  padding: 2.5px 7px;
+  border-radius: 200px;
+  background-color: rgb(21, 126, 251);
+  color: #ffffff;
+}
+
+.profile .contact {
+  color: rgba(34, 34, 34, 0.5);
+  width: 90%; /* 要显示文字的宽度 */
+  overflow: hidden; /* 超出的部分隐藏起来。*/
+  white-space: nowrap; /* 不显示的地方用省略号...代替 */
+  text-overflow: ellipsis; /* 支持 IE */
+}
